@@ -10,6 +10,7 @@ public class Problem1_BuyTwoChocolates {
         int money = sc.nextInt();
         int resut=btc(prices, money);
         System.out.println(resut);
+        sc.close();
     }
     public static int btc(int[]prices,int money){
         int min1=Integer.MAX_VALUE,min2=Integer.MAX_VALUE;
